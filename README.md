@@ -1,5 +1,9 @@
 # helen-masonry-image-gallery
- A masonry image gallery built with vanilla javascript.
+A responsive masonry image gallery built with vanilla javascript.
+
+## Goals
+
+- Enhance my understanding of javascript
 
 ## Notes on gallery logic
 
