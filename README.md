@@ -1,5 +1,5 @@
-# helen-masonry-image-gallery
-A responsive masonry image gallery built with vanilla javascript.
+# Responsive masonry image gallery
+A responsive masonry image gallery built with vanilla javascript by Helen Emmett.
 
 ## Goals
 
