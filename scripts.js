@@ -99,7 +99,7 @@ function addImagesToColumns(img) {
     let shortestColumn = columnHeights.indexOf(Math.min(...columnHeights));
     let imageHeight = (img.h / img.w) * 100;
 
-    columnStrings[shortestColumn] += '<img src="' + img.src + '" alt="' + img.alt + '" title="' + img.alt + '" />';
+    columnStrings[shortestColumn] += `<img src="${img.src}" alt="${img.alt}" title="${img.alt}" />`;
     columnHeights[shortestColumn] += imageHeight;
 }
 
@@ -108,7 +108,7 @@ function setGallery() {
     images.forEach(addImagesToColumns);
     let galleryHTML = "";
     for (var i = 0; i < columnStrings.length; i++) {
-        galleryHTML += '<div>' + columnStrings[i] + '</div>';
+        galleryHTML += `<div>${columnStrings[i]}</div>`;
     }
 
     document.getElementById("gallery").innerHTML = galleryHTML;

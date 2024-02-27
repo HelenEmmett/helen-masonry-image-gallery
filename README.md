@@ -3,29 +3,25 @@ A responsive masonry image gallery built with vanilla javascript by Helen Emmett
 
 ## Goals
 
-- Enhance my understanding of javascript
+- Solver the problem of making a masonry image gallery responsive, so that the user has control over the order images are displayed.
+- Enhance my understanding of javascript.
 
 ## Notes on gallery logic
 
-- Place in columns, less calulations than using absolute positioning
-- Once the columns are calulated, it only needs to be re-calculated in the columns change.
-- Set up empty div for columns with a unique id
-- Get number of columns - based on screen size? Or select?
-- Possibly select 2-6, or select responsive
-- Keep track of image sizes, need to know what the shortest column is.
+- Place in columns, less calulations than using absolute positioning.
+- Once the columns are calulated, it only needs to be re-calculated if the columns change.
+- Set up an empty div for columns with a unique id.
+- Get number of columns - based on screen size.
+- Keep track of image sizes, as I need to know what the shortest column is.
 
 
-## Variables needed
-
-- Array of images
-- Number of columns
-- height of each column (keep track of image height)
-- Shortest column length
-- String for HTML code
-
-## Notes for improvement
+## Notes for future improvement
 
 - Display images on page scroll
 - Open gallery to full screen images, navigate with swipe, arrow key and arrow buttons
 
+## Acknowledgments
 
+- [W3Schools Responsive Image Grid] (https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) - this posed the problem of not being able to control the order images are displayed.
+- [Masonry Cascading grid layout library] (https://masonry.desandro.com/) - this works by calculating absolute positions of each image. It gave me to idea to caculate image heights and add them to columns dynamically.
+- Images are all created with Adobe Photoshop (beta) text to image, with the prompt: *Embroidery with the number "1" in the centre. warm Green, emerald green, gold, teal*.
