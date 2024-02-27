@@ -1,9 +1,9 @@
 # Responsive masonry image gallery
-A responsive masonry image gallery built with vanilla javascript by Helen Emmett.
+A responsive masonry image gallery built with vanilla javascript by Helen Emmett. [View the live page here](https://helenemmett.github.io/helen-masonry-image-gallery/).
 
 ## Goals
 
-- Solver the problem of making a masonry image gallery responsive, so that the user has control over the order images are displayed.
+- Solve the problem of making a masonry image gallery responsive, so that the user has control over the order images are displayed.
 - Enhance my understanding of javascript.
 
 ## Notes on gallery logic
@@ -17,6 +17,7 @@ A responsive masonry image gallery built with vanilla javascript by Helen Emmett
 
 ## Notes for future improvement
 
+- Import images from a JSON file
 - Display images on page scroll
 - Open gallery to full screen images, navigate with swipe, arrow key and arrow buttons
 
