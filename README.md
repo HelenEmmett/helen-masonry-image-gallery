@@ -23,6 +23,6 @@ A responsive masonry image gallery built with vanilla javascript by Helen Emmett
 
 ## Acknowledgments
 
-- [W3Schools Responsive Image Grid] (https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) - this posed the problem of not being able to control the order images are displayed.
-- [Masonry Cascading grid layout library] (https://masonry.desandro.com/) - this works by calculating absolute positions of each image. It gave me to idea to caculate image heights and add them to columns dynamically.
+- [W3Schools Responsive Image Grid](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) - this posed the problem of not being able to control the order images are displayed.
+- [Masonry Cascading grid layout library](https://masonry.desandro.com/) - this works by calculating absolute positions of each image. It gave me to idea to caculate image heights and add them to columns dynamically.
 - Images are all created with Adobe Photoshop (beta) text to image, with the prompt: *Embroidery with the number "1" in the centre. warm Green, emerald green, gold, teal*.
